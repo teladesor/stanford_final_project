@@ -1,12 +1,4 @@
-html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font-weight: normal;
-    vertical-align: baseline;
-    background: transparent;
-}
+
 strong {
     font-weight: bold;
 }
@@ -319,19 +311,10 @@ footer ul {
 .internal_page_container a {
     color:#1c74ac;
 }
-@media (max-width: 1170px) {
-    #header_links {
-        margin-right: 16px;
-    }
-    #homepage_callout {
-        padding-bottom: 40px;
-        float: none;
-    }
-}
 
-@media (max-width: 940px) {
-    #homepage_copy {
-        padding: 42px 5% 25px;
+
+
+
     }
     #header_links {
         float: none;
@@ -379,37 +362,4 @@ footer ul {
         padding-left: 6%;
     }
 
-}
-@media (max-width: 740px) {
-    #homepage_callout h1 {
-    font-size: 24px;
-    }
-    #homepage_callout li {
-        font-size: 23px;
-    }
-
-}
-
-@media (max-width: 640px) {
-    footer ul {
-        width:50%;
-        margin-bottom: 20px;
-    }
-    .footer_help {
-        clear: left;
-    }
-}
-
-@media (max-width: 615px) {
-    #homepage_certificate {
-        float: none;
-        margin-top: 15px;
-    }
-}
-
-@media (max-width: 440px) {
-    #header_container {
-        background-size: 90%;
-        background-position: center 51%;
-    }
 }
